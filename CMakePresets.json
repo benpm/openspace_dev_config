@@ -30,7 +30,8 @@
                 "ASSIMP_INSTALL_PDB": "OFF",
                 "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
                 "CMAKE_TOOLCHAIN_FILE": "",
-                "CMAKE_PROJECT_TOP_LEVEL_INCLUDES": "support/cmake/disable_vcpkg.cmake"
+                "CMAKE_PROJECT_TOP_LEVEL_INCLUDES": "support/cmake/disable_vcpkg.cmake",
+                "DISABLE_VCPKG": "ON"
             },
             "hidden": false
         }
