@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.asset": "lua",
+        "*.profile": "json",
+        "*.task": "lua"
+    }
+}
