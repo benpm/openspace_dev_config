@@ -39,7 +39,6 @@
         {
             "name": "windows-min",
             "configurePreset": "windows-min",
-            "configuration": "min",
             "targets": [
                 "OpenSpace"
             ],
