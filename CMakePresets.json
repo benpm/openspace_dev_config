@@ -30,6 +30,7 @@
                 "ASSIMP_INSTALL_PDB": "OFF",
                 "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
                 "CMAKE_TOOLCHAIN_FILE": "",
+                "DISABLE_VCPKG": "ON",
                 "CMAKE_PROJECT_TOP_LEVEL_INCLUDES": "support/cmake/disable_vcpkg.cmake"
             },
             "hidden": false
@@ -38,7 +39,9 @@
     "buildPresets": [
         {
             "name": "windows-min",
+            "configuration": "RelWithDebInfo",
             "configurePreset": "windows-min",
+            "jobs": 6,
             "targets": [
                 "OpenSpace"
             ],
