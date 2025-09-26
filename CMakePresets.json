@@ -39,8 +39,9 @@
     "buildPresets": [
         {
             "name": "windows-min",
+            "configuration": "RelWithDebInfo",
             "configurePreset": "windows-min",
-            "configuration": "min",
+            "jobs": 6,
             "targets": [
                 "OpenSpace"
             ],
